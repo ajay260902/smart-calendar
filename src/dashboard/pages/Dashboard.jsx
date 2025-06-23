@@ -25,7 +25,7 @@ const Dashboard = () => {
 
     const [isLoading, setIsLoading] = useState(false);
 
-    localStorage.setItem('email', email)
+    localStorage.setItem('email', email?email:"chavdaajay129@gmail.com")
 
     useEffect(() => {
 
